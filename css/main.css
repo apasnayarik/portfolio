@@ -1,0 +1,331 @@
+html,body {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* GRID */
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col-4 {
+    width: 360px;
+    margin-right: 30px;
+    float: left;
+}
+
+#abc {
+    margin-right: 0px;
+}
+
+#ab {
+    margin-right: 0px;
+}
+
+/* HEADER */
+.header {
+    background: #3d6582;
+    background-image: url("../img/bg/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100vh;
+    min-height: 400px;
+    color: #FFF;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header_title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    font-family: 'Merriweather', serif;
+}
+
+.header_motto {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header_arrow {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+#arrow {
+    color: white;
+}
+
+#arrow:hover {
+    color: aquamarine;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 60px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.portfolio_item_img {
+    margin-bottom: 17px;  
+}
+
+.portfolio_item_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio_item_title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio_item_title a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #FFF;
+}
+
+.portfolio_item_title a:hover {
+    color: #0052C2;
+    border-color: rgba(0, 82, 194, 0.3);
+}
+
+.portfolio_item_text p {
+    margin-top: 0px;
+    margin-bottom: 15px; 
+}
+
+a {
+    transition: 0.2s ease-out;
+}
+
+
+/* PORTFOLIO WORK 1 */
+
+.portfolio-single-page {
+    text-align: center;
+    background-image: url(../img/big/organica.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+}
+
+
+#item {
+    margin-top: 1850px;
+    visibility: hidden;
+}
+
+.back {
+    background-color: #061634;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.button-back {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    display: inline-block;
+    
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 50px;
+    
+    margin-bottom: 13px;
+    
+    transition: 0.4s ease-out;
+}
+
+.button-back:hover {
+    color: #061634;
+    background-color: white;
+}
+
+/* PORTFOLIO WORK 2 */
+
+.portfolio-single-page2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: center;  
+}
+
+.portfolio-single-page2 img {
+    margin-bottom: 50px;
+    max-width: 200%;
+    height: 500px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #061634;
+    color: #6479a2;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.footer_name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+p.footer_social {
+    color: #FFF;
+}
+
+p.footer_social-icons {
+    font-size: 32px;
+}
+
+p.footer_social-icons a {
+    color: #FFF;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+p.footer_social-icons a:hover {
+    color: yellow;
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    display: inline-block;
+    
+    border-width: 2px;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 50px;
+    
+    margin-bottom: 13px;
+    
+    transition: 0.4s ease-out;
+}
+
+.button:hover {
+    color: #061632;
+    background-color: white;
+}
+
+/* MEDIA */
+/* При ширині екрану менше 1160px буде виконаний медіа-запит */
+
+@media (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+    
+    .col-4 {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    
+    .header-title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    
+    .header-motto {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
+    .title {
+        font-size: 36px;
+    }
+    
+    footer {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+}
+
+
+
+
+
